@@ -147,21 +147,11 @@ html {
 
 .modal-body {
     position: relative;
-    text-align: center;
 }
 
-.my-close-btn {
-    width: 2.5rem;
-    height: 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: grey;
-    background-color: transparent;
+.close {
     font-size: 1.75rem;
     font-weight: 600;
-    border: none;
-    outline: none;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition:    all .3s ease-in-out;
     -ms-transition:     all .3s ease-in-out;
@@ -169,13 +159,18 @@ html {
     transition:         all .3s ease-in-out;
 }
 
-.my-close-btn:hover {
+.close:hover {
     color: #9e79d7;
 }
 
-.my-close-btn:focus, .my-close-btn:active {
+.close:focus, .close:active {
     border: none;
     outline: none;
+}
+
+.skills-heading {
+    font-weight: 600;
+    margin-top: 0.5rem;
 }
 
 @media (min-width: 576px) {

@@ -8,49 +8,7 @@ var points;
 
 function onLoad()
 {
-    var card = document.createElement('div');
-    card.id = "card";
-    card.innerHTML = "<div id='heading'>\
-        Hi, I'm Zulaikha\
-    </div>\
-    <div id='subheading'>\
-        Tl;dr - I like making stuff\
-    </div>\
-    <div>\
-        <button class='action-btn' id='start-btn'>\
-            <i class='fa fa-lock'></i>&nbsp;&nbsp;Start Game \
-        </button>\
-    </div>\
-    <div>\
-        <button class='action-btn' data-toggle='modal' data-target='#credits-modal'>\
-            <i class='fa fa-crown'></i>&nbsp;&nbsp;Credits\
-        </button>\
-    </div>\
-    <div>\
-        <a href='https://github.com/zzakiullah' target='_blank'>\<!--\
-            --><button class='link-btn' id='github'><!--\
-                --><i class='fa fa-github'></i><!--\
-            --></button><!--\
-        --></a><!--\
-        --><a href='https://www.linkedin.com/in/zulaikha-zakiullah/' target='_blank'><!--\
-            --><button class='link-btn' id='linkedin'><!--\
-                --><i class='fa fa-linkedin'></i><!--\
-            --></button><!--\
-        --></a><!--\
-        --><a href='mailto:zzakiull@uwaterloo.ca'><!--\
-            --><button class='link-btn' id='email'><!--\
-                --><i class='fa fa-envelope'></i><!--\
-            --></button><!--\
-        --></a><!--\
-        --><a href='resume/Resume.pdf' target='_blank'><!--\
-            --><button class='link-btn' id='resume'><!--\
-                --><i class='fa fa-file-alt'></i><!--\
-            --></button><!--\
-        --></a>\
-    </div>";
-    
-    document.querySelector('#bg').appendChild(card);
-
+    var card = document.getElementById('card');
     var height = window.innerHeight > card.offsetHeight ? window.innerHeight : card.offsetHeight;
 
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -161,7 +119,6 @@ function refresh() {
 
 function onResize() {
     document.querySelector('#bg svg').remove();
-    document.querySelector('#bg #card').remove();
     clearTimeout(refreshTimeout);
     onLoad();
 }

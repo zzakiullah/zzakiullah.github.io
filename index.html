@@ -50,15 +50,142 @@
     <body>
         <div id='a'></div>
 
-        <div id="bg"></div>
+        <div id="bg">
+            <div id="card">
+                <div id='heading'>
+                    Hi, I'm Zulaikha
+                </div>
+                <div id='subheading'>
+                    Tl;dr - I like making stuff
+                </div>
+                <div>
+                    <button class='action-btn' id='start-btn'>
+                        <i class='fa fa-lock'></i>&nbsp;&nbsp;New Game
+                    </button>
+                </div>
+                <div>
+                    <button class='action-btn' data-toggle='modal' data-target='#skills-modal'>
+                        <i class='fa fa-wrench'></i>&nbsp;&nbsp;My Skills
+                    </button>
+                </div>
+                <div>
+                    <button class='action-btn' data-toggle='modal' data-target='#credits-modal'>
+                        <i class='fa fa-crown'></i>&nbsp;&nbsp;Credits
+                    </button>
+                </div>
+                <div>
+                    <a href='https://github.com/zzakiullah' target='_blank'><!--
+                        --><button class='link-btn' id='github'><!--
+                            --><i class='fa fa-github'></i><!--
+                        --></button><!--
+                    --></a><!--
+                    --><a href='https://www.linkedin.com/in/zulaikha-zakiullah/' target='_blank'><!--
+                        --><button class='link-btn' id='linkedin'><!--
+                            --><i class='fa fa-linkedin'></i><!--
+                        --></button><!--
+                    --></a><!--
+                    --><a href='mailto:zzakiull@uwaterloo.ca'<!--
+                        --><button class='link-btn' id='email'><!--
+                            --><i class='fa fa-envelope'></i><!--
+                        --></button><!--
+                    --></a><!--
+                    --><a href='Resume.pdf' target='_blank'><!--
+                        --><button class='link-btn' id='resume'><!--
+                            --><i class='fa fa-file-alt'></i><!--
+                        --></button><!--
+                    --></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="skills-modal" tabindex="-1" role="dialog" aria-labelledby="skills-modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="skills-modal-title">My Skills (Equipped: All)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6 class="skills-heading">Languages</h6>
+                        <div class="row">
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-python"></i>&nbsp;&nbsp;Python
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fa fa-code"></i>&nbsp;&nbsp;C/C++
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-microsoft"></i>&nbsp;&nbsp;C#
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-java"></i>&nbsp;&nbsp;Java
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-js"></i>&nbsp;&nbsp;JavaScript
+                            </div>
+                        </div>
+                        <h6 class="skills-heading">Frontend / Backend</h6>
+                        <div class="row">
+                            <div class="col-md-4 col-6">
+                                <i class="fa fa-html5"></i>&nbsp;&nbsp;HTML5
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fa fa-css3"></i>&nbsp;&nbsp;CSS3
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-bootstrap"></i>&nbsp;&nbsp;Bootstrap
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-node-js"></i>&nbsp;&nbsp;Node.js
+                            </div>
+                        </div>
+                        <h6 class="skills-heading">Operating Systems</h6>
+                        <div class="row">
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-windows"></i>&nbsp;&nbsp;Windows
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-linux"></i>&nbsp;&nbsp;Linux
+                            </div>
+                        </div>
+                        <h6 class="skills-heading">Source Control</h6>
+                        <div class="row">
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-git-alt"></i>&nbsp;&nbsp;Git
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fa fa-github"></i>&nbsp;&nbsp;GitHub
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-bitbucket"></i>&nbsp;&nbsp;Bitbucket
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-jira"></i>&nbsp;&nbsp;Jira
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-confluence"></i>&nbsp;&nbsp;Confluence
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <i class="fab fa-jenkins"></i>&nbsp;&nbsp;Jenkins
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="modal fade" id="credits-modal" tabindex="-1" role="dialog" aria-labelledby="credits-modal-title" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="my-close-btn" data-dismiss="modal" aria-label="Close">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="skills-modal-title">Credits</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             &times;
                         </button>
+                    </div>
+                    <div class="modal-body text-center">
                         <div>
                             &copy; 2020 Zulaikha Zakiullah
                         </div>
