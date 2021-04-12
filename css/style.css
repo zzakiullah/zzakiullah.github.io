@@ -86,9 +86,13 @@ html {
     transition:         all .3s ease-in-out;
 }
 
+.link-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .link-btn:focus, .link-btn:active {
     border: none;
-    outline: none;
 }
 
 #github:hover {
