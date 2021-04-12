@@ -56,10 +56,6 @@ html {
     background-color: white;
 }
 
-.action-btn:focus, .action-btn:active {
-    outline: none;
-}
-
 #start-btn {
     opacity: 0.5;
     cursor: not-allowed;
