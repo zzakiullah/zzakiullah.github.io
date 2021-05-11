@@ -1,4 +1,3 @@
-# Personal Site
-Personal website. Simple for now but more will be added soon.
+# zzakiullah.github.io
 
-Check it out if you'd like: http://zulaikha.me
+Personal website: http://zulaikha.me

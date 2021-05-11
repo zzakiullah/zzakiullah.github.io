@@ -1,0 +1,68 @@
+{
+    "things": [
+        {
+            "message": "Sorry, this button doesn't really do anything (yet). The most I can do is give you a cookie.",
+            "emoji": "🍪",
+            "okButton": "Take the free cookie"
+        },
+        {
+            "message": "Did you come back for more? Cookies aren't cheap you know. That was my last one.",
+            "emoji": "😔",
+            "okButton": "Accept the disappointing reality"
+        },
+        {
+            "message": "Okay really though, there's nothing left to see here. You're better off scrolling down.",
+            "emoji": "👇",
+            "okButton": "Okay 👌"
+        },
+        {
+            "message": "Why are you still here?",
+            "emoji": "❓",
+            "okButton": "\"Just to suffer\" ~RM"
+        }
+    ],
+    "that": [
+        {
+            "message": "Yeah, if you're in a rush. If you want the long version, just scroll down.",
+            "emoji": "🏃",
+            "okButton": "Alrighty"
+        },
+        {
+            "message": "Okay, if you had time to click this again, you should have time to scroll down.",
+            "emoji": "⌛",
+            "okButton": "But what is time?"
+        },
+        {
+            "message": "What, you just want to see if this message will change every time you click it?",
+            "emoji": "👍",
+            "okButton": "Yes"
+        },
+        {
+            "message": "Well, it's not changing anymore.",
+            "emoji": "😕",
+            "okButton": "What a shame"
+        },
+        {
+            "message": "Still not changing",
+            "emoji": "😕",
+            "okButton": "Okay"
+        },
+        {
+            "message": "Not changing",
+            "emoji": "😕",
+            "okButton": "Okay"
+        }
+    ],
+    "hate": [
+        {
+            "message": "Sorry for offending your eyes. This feature is still a work in progress, but when it's done, you'll be able to customize this site to better suit your taste.",
+            "emoji": "🚧",
+            "okButton": "Okay"
+        },
+        {
+            "message": "I can't really help you anymore than that.",
+            "emoji": "🤷",
+            "okButton": "Okay"
+        }
+    ]
+}
