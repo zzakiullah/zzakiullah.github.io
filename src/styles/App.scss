@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.project-control.mixitup-control-active {
+  @apply text-white bg-black dark:bg-gray-600;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "LinkedIn",
+        "icon": ["fab", "linkedin"],
+        "href": "https://www.linkedin.com/in/zulaikha-zakiullah"
+    },
+    {
+        "name": "GitHub",
+        "icon": ["fab", "github"],
+        "href": "https://github.com/zzakiullah"
+    },
+    {
+        "name": "CodePen",
+        "icon": ["fab", "codepen"],
+        "href": "https://codepen.io/zzakiullah"
+    },
+    {
+        "name": "Resume",
+        "icon": ["fas", "file-alt"],
+        "href": "Resume.pdf"
+    }
+]

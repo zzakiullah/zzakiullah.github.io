@@ -1,0 +1,31 @@
+{
+    "bullets": [
+        "💬 You can call me \"Zoo-lay-ka\" or \"Zoo-ly-ka\"",
+        "🏫 I'm currently studying Electrical Engineering @ UWaterloo",
+        "✨ I enjoy making UI effects and animations",
+        "❤️ I love creating dynamic and unique user experiences",
+        "💻 I'm also interested in embedded firmware"
+    ],
+    "skills": [
+        {
+            "heading": "Languages",
+            "content": "Python, C/C++, C#, Java, JavaScript, TypeScript, Ruby"
+        },
+        {
+            "heading": "Hardware",
+            "content": "Arduino, ARM Assembly, VHDL, Quartus, Proteus"
+        },
+        {
+            "heading": "Frontend",
+            "content": "HTML, CSS, React, Vue, Angular, Bootstrap, Tailwind CSS"
+        },
+        {
+            "heading": "Backend",
+            "content": "Node.js, Express.js, .NET, NGINX, SQLite, GraphQL"
+        },
+        {
+            "heading": "Other",
+            "content": "Git, Android Studio, Jenkins, Vagrant"
+        }
+    ]
+}

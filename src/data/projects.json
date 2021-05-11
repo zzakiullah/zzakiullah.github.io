@@ -1,0 +1,148 @@
+{
+    "controls": [
+        {
+            "label": "All",
+            "filter": "all"
+        },
+        {
+            "label": "Frontend",
+            "filter": ".frontend"
+        },
+        {
+            "label": "Backend",
+            "filter": ".backend"
+        },
+        {
+            "label": "Game",
+            "filter": ".game"
+        }
+    ],
+    "items": [
+        {
+            "heading": "This Thing",
+            "subheading": "The thing you're on right now",
+            "description": "I still consider this website to be a work in progress since there are still a lot of other things I'd like to add (like if you hate this design, what if you want to change the accent colour or something?). From what I've done though, it's been a great way learn React and Tailwind CSS. I couldn't think of what to make for a logo, so I just drew something that says \"Logo\"...I mean, it does the job. And if you're wondering, the contact form runs using EmailJS.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/zzakiullah.github.io"
+                }
+            ],
+            "image": "projects/this-thing.jpg",
+            "badges": ["React", "TailwindCSS"],
+            "filters": "frontend"
+        },
+        {
+            "heading": "Desktop",
+            "subheading": "A desktop screen-themed UI",
+            "description": "This is just a web app that looks like a desktop. There are desktop icons you can click and they'll open windows which you can move around, resize, and minimize/maximize. I admit it doesn't really do anything (yet) but it was a good way to learn Vue.js.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/desktop"
+                }
+            ],
+            "image": "projects/desktop.jpg",
+            "badges": ["Vue", "HTML", "Sass", "Express.js"],
+            "filters": "frontend"
+        },
+        {
+            "heading": "EZ-E",
+            "subheading": "A totally useful Discord bot",
+            "description": "EZ-E is a Discord bot that's kind of useful but at the same time, has some pretty useless features too, but they're just fun to have. It serves to help in school, by providing course information, meeting links, instructors' emails, etc. It also has commands to print giant F's using any emoji, and responding with \"oui oui grenouille\" every time someone says \"yes\", among other things. Hosting can be done through Heroku or whatever other service you want.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/EZ-E"
+                }
+            ],
+            "image": "projects/ez-e.jpg",
+            "badges": ["JavaScript", "Node.js", "Heroku"],
+            "filters": "backend"
+        },
+        {
+            "heading": "ProfBot",
+            "subheading": "Another very useful Discord bot",
+            "description": "ProfBot's my first Discord bot and it's pretty useless (but I mean, I like making goofy things — firstly, it's fun, and secondly, I can learn some cool stuff). It responds with \"Pong!\" if you enter \"!ping\", and also reacts to messages with certain emojis (like 😭) if it finds certain phrases in messages.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/ProfBot"
+                }
+            ],
+            "image": "projects/profbot.jpg",
+            "badges": ["C#", ".NET"],
+            "filters": "backend"
+        },
+        {
+            "heading": "Super Smash Bros.",
+            "subheading": "A 2D fighting game",
+            "description": "From the title, I guess you can tell that this is a 2D fighting platform game based on Super Smash Bros., featuring the same characters (but not all of them). You can play with up to 3 computer players, all of which attack you relentlessly the moment the round starts. (Seriously, they follow you everywhere.) The Swing GUI was used to make this game.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/Super-Smash-Bros"
+                }
+            ],
+            "image": "projects/super-smash-bros.jpg",
+            "badges": ["Java"],
+            "filters": "game"
+        },
+        {
+            "heading": "Super Mario Run",
+            "subheading": "An infinite 2D runner",
+            "description": "This is an infinite 2D runner with Mario. You can collect coins to earn points and jump into pipes to go to different areas. There are some enemies that you can crush by jumping on them, but others need to be avoided. High scores are stored in a .txt file. The Swing GUI was used to make this game.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/Super-Mario-Run"
+                }
+            ],
+            "image": "projects/super-mario-run.jpg",
+            "badges": ["Java"],
+            "filters": "game"
+        },
+        {
+            "heading": "Pokémon Arena",
+            "subheading": "A text-based Pokémon game",
+            "description": "This is a command-line text-based Pokemon game, where you choose 4 Pokémon from a list of 30 to battle the remaining 26. The Pokémons' stats are all loaded from a .txt file. For whatever reason when I was working on this, I decided to make a few Pokémon (like Jigglypuff) overpowered for fun.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/Pokemon-Arena"
+                }
+            ],
+            "image": "projects/pokemon-arena.jpg",
+            "badges": ["Java"],
+            "filters": "game"
+        },
+        {
+            "heading": "Home - An Odoughssey",
+            "subheading": "Starring Poppin' Fresh",
+            "description": "Sometimes I make things on a whim, and this was one of those things. One day, I woke up and decided that I wanted to make a game about the Pillsbury Doughboy going back to his home planet Neptune. It's a side-scroller shooter, where you can shoot cookies and croissants at targets and other obstacles. Pygame was used for the graphics and sounds. (Fun fact: I drew the sprites myself as well.)",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/Home-An-Odoughssey"
+                }
+            ],
+            "image": "projects/home-an-odoughssey.jpg",
+            "badges": ["Python"],
+            "filters": "game"
+        },
+        {
+            "heading": "Super Mario Galaxy Paint",
+            "subheading": "A paint program",
+            "description": "This paint program was my very first programming project so the code is quite...clunky. It was back in the dark ages where I didn't know classes or functions. But I figured I'd put it up here since...why not? It's decent and I had quite a lot of fun making it. There are different drawing tools, stickers, and backgrounds to choose. There are undo, redo, and save options as well. Pygame was used for the graphics and sounds.",
+            "links": [
+                {
+                    "label": "View on GitHub",
+                    "href": "https://github.com/zzakiullah/Super-Mario-Galaxy-Paint"
+                }
+            ],
+            "image": "projects/super-mario-galaxy-paint.jpg",
+            "badges": ["Python"],
+            "filters": "game"
+        }
+    ]
+}

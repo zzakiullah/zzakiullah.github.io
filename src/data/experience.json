@@ -1,0 +1,87 @@
+[
+    {
+        "position": "Software Developer",
+        "company": "Ford Motor Company",
+        "duration": "Jan 2021 – Apr 2021",
+        "image": "",
+        "bullets": [
+            "Worked on distraction management team to provide APIs for system and third-party apps to use to ensure they are distraction optimized when vehicle is in motion",
+            "Developed API to determine enabling of controls on infotainment system based on vehicle's region market",
+            "Integrated runtime resource overlay packages in Android to load specific settings on vehicle depending on user's region",
+            "Enhanced distraction management API unit test suite API using Java, JUnit, and Robolectric to increase code coverage by over 20%"
+        ],
+        "links": [
+            {
+                "name": "ford.com",
+                "href": "https://www.ford.com"
+            }
+        ]
+    },
+    {
+        "position": "Tech Lead",
+        "company": "UW Orphan Sponsorship Program",
+        "duration": "Nov 2020 – Present",
+        "image": "",
+        "bullets": [
+            "Revamped website and created custom widgets and components using Shopify Liquid, HTML, CSS, and JavaScript",
+            "Created program to calculate and generate map of most efficient route to take for up to 25 locations, to aid in delivering OSP's care packages"
+        ],
+        "links": [
+            {
+                "name": "uwosp.com",
+                "href": "https://uwosp.com"
+            }
+        ]
+    },
+    {
+        "position": "Test Automation Developer",
+        "company": "Ford Motor Company",
+        "duration": "May 2020 – Aug 2020",
+        "image": "",
+        "bullets": [
+            "Created an automated job to run monthly using Python and Jenkins DSL to delete all unused workspaces in Jenkins machines, speeding up the testing pipeline",
+            "Developed a command line tool with Python and Click to save developers' time by remotely controlling services on any Jenkins machine through SSH as opposed to using RDP",
+            "Implemented the façade design pattern to improve readability and mask more complex components of existing software libraries behind a simpler API, allowing for easier and faster usage"
+        ],
+        "links": [
+            {
+                "name": "ford.com",
+                "href": "https://www.ford.com"
+            }
+        ]
+    },
+    {
+        "position": "Firmware Developer",
+        "company": "Waterloo Formula Electric",
+        "duration": "Sep 2019 – Present",
+        "image": "",
+        "bullets": [
+            "Improved state machine design of power distribution unit to run motor and motor control cooling loops separately, allowing for more efficient use of vehicle's cooling system",
+            "Created firmware team development environment running on Ubuntu using Vagrant and Ruby",
+            "Developed CAN message simulator using Python and CAN tools through parsing of DBC and JSON files, allowing for easy remote testing of tools such as car's dashboard and telemetry"
+        ],
+        "links": [
+            {
+                "name": "waterlooformulaelectric.com",
+                "href": "http://waterlooformulaelectric.com"
+            }
+        ]
+    },
+    {
+        "position": "Tutor",
+        "company": "Greater Essex County District School Board",
+        "duration": "Jul 2019",
+        "image": "",
+        "bullets": [
+            "Tutored high school students in math, physics, and chemistry",
+            "Distilled information from textbooks to create assignments for teachers",
+            "Organized inventory using Excel spreadsheets to keep track of materials such as textbooks"
+        ],
+        "links": [
+            {
+                "name": "publicboard.ca",
+                "href": "https://www.publicboard.ca"
+            }
+        ]
+    }
+]
