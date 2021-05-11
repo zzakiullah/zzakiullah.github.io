@@ -1,3 +1,3 @@
 # zzakiullah.github.io
 
-Personal website: http://zulaikha.me
+Personal website: https://zulaikha.me
