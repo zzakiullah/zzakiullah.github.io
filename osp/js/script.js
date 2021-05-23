@@ -33,8 +33,8 @@ for (var i=0; i<route_info.length; i++) {
     addr_list += "</ol></div></div>";
     var container = "<div class='d-flex flex-column flex-md-row'><div class='route-map'><img src='" + map + "' class='w-100' /></div>" + est_time + addr_list + "<div>";
     $("#routes").append("<div class='my-4' id='" + section_id + "'><h2>" + route_title + "</h2>" + container + "</div>");
-    $("#overview-body").append("<tr><th scope='row'>" + (i+1) + "</th><td><a href='#" + section_id + "'>" + dname + "</a></td><td>" + (sequence.length) + "</td><td>" + (total_units) + "</td></tr>");
+    $("#overview-body").append("<tr><th scope='row'>" + (i+1) + "</th><td><a href='#" + section_id + "'>" + dname + "</a></td><td>" + elapsed_time + "</td><td>" + (sequence.length) + "</td><td>" + (total_units) + "</td></tr>");
     overall_total_units += total_units;
     overall_total_addresses += sequence.length;
 }
-$("#overview-body").append("<tr><td colspan='2' class='text-right font-weight-bold'>Total</td><td class='font-weight-bold'>" + (overall_total_addresses) + "</td><td class='font-weight-bold'>" + (overall_total_units) + "</td></tr>");
+$("#overview-body").append("<tr><td colspan='3' class='text-right font-weight-bold'>Total</td><td class='font-weight-bold'>" + (overall_total_addresses) + "</td><td class='font-weight-bold'>" + (overall_total_units) + "</td></tr>");
