@@ -7,6 +7,7 @@ for (var i=0; i<route_info.length; i++) {
         details = route_info[i]["details"],
         units = route_info[i]["units"],
         names = route_info[i]["names"],
+        phones = route_info[i]["phones"],
         e_time = (parseInt(route_info[i]["time"]) / 60);
     var total_units = 0;
     var section_id = dname.replace(" ", "-");
@@ -25,6 +26,9 @@ for (var i=0; i<route_info.length; i++) {
         total_units += parseInt(units[j]);
         addr_list += "<li class='pl-3 mt-2'>" + sequence[j] + " <span class='font-weight-bold'>(" + parseInt(units[j]) + ")</span></li>";
         addr_list += "<ul><li><span class='font-weight-bold'>Names:</span> " + names[j] + "</li>";
+        if (phones[j]) {
+            addr_list += "<li><span class='font-weight-bold'>Numbers:</span> " + phones[j] + "</li>";
+        }
         if (details[j]) {
             addr_list += "<li><span class='font-weight-bold'>Details:</span> " + details[j] + "</li>";
         }
