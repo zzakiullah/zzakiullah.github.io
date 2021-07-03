@@ -56,8 +56,7 @@ class About extends React.Component {
                 </div>
                 <div className='px-8 md:px-5 mt-4 lg:mt-0 flex flex-col lg:w-auto items-start dark:text-white'>
                     <p className='my-1 text-left'>
-                        <span className='line-through'>I don't feel like writing a paragraph, so:</span><br/>
-                        I don't think you have time to read a paragraph, so:
+                        Here are a few things about me:
                     </p>
                     <ul className='ml-8 text-left list-outside list-disc'>
                         { bullets }
