@@ -7,21 +7,20 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            sections: ['about', 'experience', 'projects', 'contact'],
-            currentPage: -1,
+            sections: ['home', 'about', 'experience', 'projects', 'contact'],
+            highlight: [false, false, false, false, false],
+            currentPage: 0,
             isCollapsed: true
         };
 
-        /*this.updateCurrentPage = function() {
+        this.updateCurrentPage = function() {
             for (let i=this.state.sections.length-1; i>=0; i--) {
-                if (window.scrollY >= document.getElementById(this.state.sections[i]).scrollTop) {
+                if (window.scrollY >= document.getElementById(this.state.sections[i]).offsetTop) {
                     this.setState({ currentPage: i });
-                    //alert(i);
                     break;
                 }
             }
-            this.setState({ currentPage: -1 });
-        }.bind(this);*/
+        }.bind(this);
 
         this.toggleCollapseMenu = function() {
             this.setState({ isCollapsed: !this.state.isCollapsed });
@@ -29,26 +28,35 @@ class Header extends React.Component {
 
         this.closeDropdown = function() {
             this.setState({ isCollapsed: true });
-            return true;
-        }
+        }.bind(this);
+
+        this.animateHighlight = function(show, index) {
+            let new_highlight = [...this.state.highlight];
+            new_highlight[index] = show;
+            this.setState({ highlight: new_highlight });
+        }.bind(this);
     }
 
-    /*componentDidMount() {
+    componentDidMount() {
         window.addEventListener('scroll', () => this.updateCurrentPage());
     }
 
     componentWillUnmount() {
         window.removeEventListener('scroll', () => this.updateCurrentPage());
-    }*/
+    }
 
     render() {
         let sections = [];
         for (let i=0; i<this.state.sections.length; i++) {
-            let isCurrent = (this.state.currentPage === i);
+            let show_highlight = (this.state.currentPage === i) || this.state.highlight[i];
             sections.push(
                 <a href={ '#' + this.state.sections[i] } onClick={ () => this.closeDropdown() }
-                   className={ 'mx-2 px-2 text-lg md:text-xl text-gray-800 hover:text-black dark:text-white dark:hover:text-gray-300' + (isCurrent ? ' border-b-2 border-black' : '') }>
-                    { this.state.sections[i] }
+                   onMouseEnter={ () => this.animateHighlight(true, i) } onMouseLeave={ () => this.animateHighlight(false, i) }
+                   className={ 'mx-3 px-1 relative text-lg md:text-xl text-gray-800 hover:text-black dark:text-white dark:hover:text-gray-300' }>
+                    <span className={ 'z-0 transition-all duration-300 bg-gray-400 opacity-50 absolute top-2/3 bottom-0 left-0 ' + (show_highlight ? 'right-0' : 'right-full') }></span>
+                    <span className='relative z-10'>
+                        { this.state.sections[i] }
+                    </span>
                 </a>
             );
         }
