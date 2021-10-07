@@ -52,7 +52,8 @@ class Header extends React.Component {
             sections.push(
                 <a href={ '#' + this.state.sections[i] } onClick={ () => this.closeDropdown() }
                    onMouseEnter={ () => this.animateHighlight(true, i) } onMouseLeave={ () => this.animateHighlight(false, i) }
-                   className={ 'mx-3 px-1 relative text-lg md:text-xl text-gray-800 hover:text-black dark:text-white dark:hover:text-gray-300' }>
+                   onFocus={ () => this.animateHighlight(true, i) } onBlur={ () => this.animateHighlight(false, i) }
+                   className={ 'mx-3 px-1 relative text-lg md:text-xl text-gray-800 dark:text-white' }>
                     <span className={ 'z-0 transition-all duration-300 bg-gray-400 opacity-50 absolute top-2/3 bottom-0 left-0 ' + (show_highlight ? 'right-0' : 'right-full') }></span>
                     <span className='relative z-10'>
                         { this.state.sections[i] }
