@@ -1,5 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Settings extends React.Component {
     constructor(props) {
@@ -10,9 +10,9 @@ class Settings extends React.Component {
             font: ''
         };
 
-        this.restoreDefaults = function() {
+        //this.restoreDefaults = function() {
 
-        }.bind(this);
+        //}.bind(this);
     }
 
     componentDidMount() {
