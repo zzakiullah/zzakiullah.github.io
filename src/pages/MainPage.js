@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer, Modal } from '../components/index';
+import { Header, Footer, Modal, Settings } from '../components/index';
 import { About, Experience, Projects, Contact } from '../sections/index';
 import home from '../data/home.json';
 
@@ -62,7 +62,9 @@ class MainPage extends React.Component {
             <Footer />
             <Modal messages={ home['things'] } isOpen={ this.state.openThings } close={ this.clickThings } />
             <Modal messages={ home['that'] } isOpen={ this.state.openThat } close={ this.isThatIt } />
-            <Modal messages={ home['hate'] } isOpen={ this.state.openHate } close={ this.hateThis } />
+            <Modal messages={ home['hate'] } isOpen={ this.state.openHate } close={ this.hateThis }>
+                <Settings />
+            </Modal>
         </div>;
     }
 }
