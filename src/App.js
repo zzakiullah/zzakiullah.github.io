@@ -34,8 +34,6 @@ library.add(
   faReact
 );
 
-require('dotenv').config();
-
 function App() {
   return (
     <div className='App'>
