@@ -31,8 +31,8 @@ class MainPage extends React.Component {
     render() {
         return <div id='home' className='w-full min-h-full flex flex-col items-center bg-white dark:bg-gray-900'>
             <Header capitalize={ this.state.capitalize } />
-            <div className='w-10/12 min-h-screen flex flex-col items-center justify-center'>
-                <div className='w-full'>
+            <div className='w-9/12 min-h-screen flex flex-row items-center'>{/* style={{border: "1px solid red"}}*/}
+                <div className='w-1/2 text-left'>
                     <h3 className='mb-3 text-md md:text-xl dark:text-white'>
                         Hello and welcome to my website. Feel free 
                         to <button onClick={ () => this.clickThings(true) }
@@ -41,18 +41,21 @@ class MainPage extends React.Component {
                         </button>.
                     </h3>
                     <h1 className='font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl dark:text-white'>
-                        I'm Zulaikha. I make stuff.
+                        I'm Zulaikha.
                     </h1>
-                    <div className='mt-5 flex flex-col sm:flex-row items-center justify-center'>
-                        <button className='w-full sm:w-auto mb-2 sm:mb-0 sm:mr-2 px-4 py-2 text-lg md:text-xl lg:text-2xl border border-black rounded hover:bg-gray-50 dark:text-white dark:border-white dark:hover:bg-gray-700'
+                    <div className='mt-5 flex flex-col sm:flex-row'>
+                        {/*<button className='w-full sm:w-auto mb-2 sm:mb-0 sm:mr-2 px-4 py-2 text-lg md:text-xl lg:text-2xl border border-black rounded hover:bg-gray-50 dark:text-white dark:border-white dark:hover:bg-gray-700'
                                 onClick={ () => this.isThatIt(true) }>
                             Is that { (this.state.clickedThat > 0) ? 'really' : '' } it?
-                        </button>
+                        </button>*/}
                         <button className='w-full sm:w-auto px-4 py-2 text-lg md:text-xl lg:text-2xl border border-black rounded hover:bg-gray-50 dark:text-white dark:border-white dark:hover:bg-gray-700'
                                 onClick={ () => this.hateThis(true) }>
                             I { (this.state.clickedHate > 0) ? 'still' : '' } hate this design.
                         </button>
                     </div>
+                </div>
+                <div className='w-1/2' style={{border: "1px solid red"}}>
+                    <canvas ref={ this.canvasRef } />
                 </div>
             </div>
             <About capitalize={ this.state.capitalize } handleCups={ this.handleCups } />
