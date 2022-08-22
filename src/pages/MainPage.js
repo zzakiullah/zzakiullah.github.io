@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useRef, useState } from 'react';
 import { Header, Footer, Modal, Settings } from '../components/index';
 import { About, Experience, Projects, Contact } from '../sections/index';
 import home from '../data/home.json';
