@@ -1,9 +1,9 @@
-import { React, useRef, useState } from 'react';
+import React from 'react';
 import { Header, Footer, Modal, Settings } from '../components/index';
 import { About, Experience, Projects, Contact } from '../sections/index';
 import home from '../data/home.json';
 
-import { Tilt } from 'react-parallax-tilt';
+import Tilt from 'react-parallax-tilt';
 
 class MainPage extends React.Component {
     constructor(props) {
@@ -57,7 +57,11 @@ class MainPage extends React.Component {
                     </div>
                 </div>
                 <div className='w-1/2' style={{border: "1px solid red"}}>
-                    <canvas ref={ this.canvasRef } />
+                <Tilt>
+                    <div style={{ height: '300px', backgroundColor: 'darkgreen' }}>
+                        <h1>React Parallax Tilt 👀</h1>
+                    </div>
+                </Tilt>
                 </div>
             </div>
             <About capitalize={ this.state.capitalize } handleCups={ this.handleCups } />
