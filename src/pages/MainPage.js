@@ -3,6 +3,8 @@ import { Header, Footer, Modal, Settings } from '../components/index';
 import { About, Experience, Projects, Contact } from '../sections/index';
 import home from '../data/home.json';
 
+import { Tilt } from 'react-parallax-tilt';
+
 class MainPage extends React.Component {
     constructor(props) {
         super(props);
