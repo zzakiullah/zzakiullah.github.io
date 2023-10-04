@@ -55,7 +55,7 @@ class MainPage extends React.Component {
                 </div>
                 <div className='w-1/2'>
                 <Tilt>
-                    <img src={ cats } alt='Photo of cats I took in Istanbul, Turkiye'
+                    <img src={ cats } alt='Some kittens I saw in Istanbul, Turkiye'
                          className='w-100 h-auto shadow-lg' />
                 </Tilt>
                 </div>
