@@ -81,7 +81,7 @@ class Header extends React.Component {
                 <div className='flex flex-row justify-center items-center'>
                     <Toggler />
                     <a href={ links[3]['href'] } target='_blank' rel='noreferrer'
-                        className='hidden lg:inline-block ml-4 mr-2 px-4 py-2 text-md md:text-lg rounded-md bg-gray-600 dark:bg-white text-white dark:text-black hover:bg-gray-500 dark:hover:bg-gray-200'>
+                        className='hidden lg:inline-block ml-4 mr-2 px-4 py-2 text-md md:text-lg rounded-md bg-gray-600 text-white hover:bg-gray-500'>
                         resume
                         <FontAwesomeIcon icon={['fas', 'external-link-alt']} className='ml-2 text-sm md:text-md text-gray-400' />
                     </a>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/Toggler.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Toggler extends React.Component {
     constructor(props) {
@@ -12,10 +12,9 @@ class Toggler extends React.Component {
     }
 
     render() {
-        return <button className='w-16 h-8 flex flex-row items-center justify-between relative mx-2 px-1 bg-gray-600 dark:bg-white rounded-full select-none' onClick={ () => this.toggleDark() }>
-            <span>&#x1f31c;</span>
-            <span>&#x1f31e;</span>
-            <span className={ 'absolute bg-white dark:bg-gray-600 w-6 h-6 rounded-full transition-transform' + (this.state.dark ? ' dark-on' : '') }></span>
+        return <button className='w-10 h-10 flex flex-row items-center justify-center relative mx-1 px-1 rounded-full select-none hover:bg-gray-300 dark:hover:bg-gray-700' onClick={ () => this.toggleDark() }>
+            <FontAwesomeIcon icon={['fas', 'sun']} className='text-gray-600 text-lg md:text-2xl dark:hidden' />
+            <FontAwesomeIcon icon={['fas', 'moon']} className='text-white text-lg md:text-2xl hidden dark:block' />
         </button>;
     }
 }

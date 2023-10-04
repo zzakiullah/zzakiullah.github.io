@@ -1,5 +1,55 @@
 [
     {
+        "position": "Hardware Designer",
+        "company": "Silicon Bioelectronics Laboratory (University of Waterloo)",
+        "duration": "Sep 2023 – Present",
+        "image": "",
+        "bullets": [
+            "Currently testing chip used for continuous glucose / ketone monitoring"
+        ],
+        "links": [
+            {
+                "name": "uwaterloo.ca/silicon-bioelectronics-laboratory",
+                "href": "https://uwaterloo.ca/silicon-bioelectronics-laboratory"
+            }
+        ]
+    },
+    {
+        "position": "Hardware and Systems Developer",
+        "company": "Onsemi",
+        "duration": "Jan 2023 – Apr 2023",
+        "image": "",
+        "bullets": [
+            "Designed a proof of concept temperature control module using Microchip microcontroller and C to be used in the fabrication laboratory to replace current setup with one with a greater temperature range tolerance",
+            "Validated schematics of new module presented by team and suggested changes to make more reliable",
+            "Optimized booting time of company’s new chip based on user’s selection of power mode in code",
+            "Extended custom hardware abstraction layer (HAL) libraries to include other feature support, including PWM"
+        ],
+        "links": [
+            {
+                "name": "onsemi.com",
+                "href": "https://onsemi.com"
+            }
+        ]
+    },
+    {
+        "position": "Medical Application Developer",
+        "company": "Unity Health Toronto",
+        "duration": "Aug 2021 – Aug 2022",
+        "image": "",
+        "bullets": [
+            "Worked with both developers and healthcare workers to ensure technical and medical needs were met for a clinical decision support system for asthma, ensuring the system recommended the correct medication",
+            "Created automation software using Python and Selenium to run end-to-end tests of the system, saving over 100 hours of time for the research team",
+            "Developed tools with intuitive UI to allow physicians and clinical researchers to make code changes to the system without needing technical knowledge"
+        ],
+        "links": [
+            {
+                "name": "unityhealth.to",
+                "href": "https://unityhealth.to"
+            }
+        ]
+    },
+    {
         "position": "Software Developer",
         "company": "Ford Motor Company",
         "duration": "Jan 2021 – Apr 2021",
@@ -18,9 +68,9 @@
         ]
     },
     {
-        "position": "Tech Executive",
+        "position": "Technical Executive",
         "company": "UW Orphan Sponsorship Program",
-        "duration": "Nov 2020 – Present",
+        "duration": "Nov 2020 – Apr 2023",
         "image": "",
         "bullets": [
             "Revamped website and created custom widgets and components using Shopify Liquid, HTML, CSS, and JavaScript",
@@ -68,7 +118,7 @@
         ]
     },
     {
-        "position": "Tutor",
+        "position": "Summer Learning Tutor",
         "company": "Greater Essex County District School Board",
         "duration": "Jul 2019",
         "image": "",

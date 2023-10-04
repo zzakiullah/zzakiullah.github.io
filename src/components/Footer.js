@@ -18,7 +18,7 @@ class Footer extends React.Component {
                 { socials }
             </div>
             <p className='mt-10'>
-                Copyright &copy; 2021 Zulaikha Zakiullah
+                Copyright &copy; { new Date().getFullYear() } Zulaikha Zakiullah
             </p>
             <p className='mt-1 flex flex-row justify-center items-center'>
                 Made with ☕ and <FontAwesomeIcon icon={['fab', 'react']} className='ml-2 text-xl' style={{ color: '#61dafb' }} />

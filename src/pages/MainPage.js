@@ -2,6 +2,7 @@ import React from 'react';
 import { Header, Footer, Modal, Settings } from '../components/index';
 import { About, Experience, Projects, Contact } from '../sections/index';
 import home from '../data/home.json';
+import cats from '../assets/cats.jpg';
 
 import Tilt from 'react-parallax-tilt';
 
@@ -33,7 +34,7 @@ class MainPage extends React.Component {
     render() {
         return <div id='home' className='w-full min-h-full flex flex-col items-center bg-white dark:bg-gray-900'>
             <Header capitalize={ this.state.capitalize } />
-            <div className='w-9/12 min-h-screen flex flex-row items-center'>{/* style={{border: "1px solid red"}}*/}
+            <div className='w-9/12 min-h-screen flex flex-row items-center'>
                 <div className='w-1/2 text-left'>
                     <h3 className='mb-3 text-md md:text-xl dark:text-white'>
                         Hello and welcome to my website. Feel free 
@@ -46,21 +47,16 @@ class MainPage extends React.Component {
                         I'm Zulaikha.
                     </h1>
                     <div className='mt-5 flex flex-col sm:flex-row'>
-                        {/*<button className='w-full sm:w-auto mb-2 sm:mb-0 sm:mr-2 px-4 py-2 text-lg md:text-xl lg:text-2xl border border-black rounded hover:bg-gray-50 dark:text-white dark:border-white dark:hover:bg-gray-700'
-                                onClick={ () => this.isThatIt(true) }>
-                            Is that { (this.state.clickedThat > 0) ? 'really' : '' } it?
-                        </button>*/}
                         <button className='w-full sm:w-auto px-4 py-2 text-lg md:text-xl lg:text-2xl border border-black rounded hover:bg-gray-50 dark:text-white dark:border-white dark:hover:bg-gray-700'
                                 onClick={ () => this.hateThis(true) }>
                             I { (this.state.clickedHate > 0) ? 'still' : '' } hate this design.
                         </button>
                     </div>
                 </div>
-                <div className='w-1/2' style={{border: "1px solid red"}}>
+                <div className='w-1/2'>
                 <Tilt>
-                    <div style={{ height: '300px', backgroundColor: 'darkgreen' }}>
-                        <h1>React Parallax Tilt 👀</h1>
-                    </div>
+                    <img src={ cats } alt='Photo of cats I took in Istanbul, Turkiye'
+                         className='w-100 h-auto shadow-lg' />
                 </Tilt>
                 </div>
             </div>

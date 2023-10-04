@@ -13,7 +13,9 @@ import {
   faPaperPlane,
   faCheckCircle,
   faTimesCircle,
-  faFileAlt
+  faFileAlt,
+  faSun,
+  faMoon
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faCodepen, faReact } from '@fortawesome/free-brands-svg-icons';
 
@@ -28,6 +30,8 @@ library.add(
   faCheckCircle,
   faTimesCircle,
   faFileAlt,
+  faSun,
+  faMoon,
   faGithub,
   faLinkedin,
   faCodepen,
