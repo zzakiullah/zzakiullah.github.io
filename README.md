@@ -1,5 +1,5 @@
-# zulaikha.me
+# v1.zulaikha.me
 
 [![Node.js](https://github.com/zzakiullah/zzakiullah.github.io/actions/workflows/node.js.yml/badge.svg)](https://github.com/zzakiullah/zzakiullah.github.io/actions/workflows/node.js.yml)
 
-Personal website: https://zulaikha.me
+Old portfolio website: https://v1.zulaikha.me
